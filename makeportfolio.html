@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket - The Global Information Markets Platform</title>
+
+    <!-- Meta SEO -->
+    <meta name="title" content="Landwind - Tailwind CSS Landing Page">
+    <meta name="description" content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Themesberg">
+
+    <!-- Social media share -->
+    <meta property="og:title" content=Landwind - Tailwind CSS Landing Page>
+    <meta property="og:site_name" content=Themesberg>
+    <meta property="og:url" content=https://https://demo.themesberg.com/landwind/>
+    <meta property="og:description" content=Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more.>
+    <meta property="og:type" content="">
+    <meta property="og:image" content=https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@themesberg" />
+    <meta name="twitter:creator" content="@themesberg" />
+
+    <link rel="shortcut icon" href="images/Polymarket-logo.png">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./custom.css" rel="stylesheet">
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fixed w-full z-10">
+        <nav class="bg-white border-gray-200 p-1 dark:bg-gray-900 w-full shadow-lg">         
+            <div class="flex items-center">
+                <div class="w-auto p-2 ml-4">
+                    <a href="#" class="flex items-center">
+                    <img src="images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Polymarket" />
+                    </a>
+                </div>
+                <div class="w-3/6 p-2">
+                    <div class="absolute inset-y-0 left-0 flex items-center ml-60 pointer-events-none">
+                        <p class="text-gray-400"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" class="c-kwsQLE c-kwsQLE-icjBoPZ-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg></p>
+                    </div>
+                    <input id="Search" class="formkit-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-600 dark:focus:border-gray-600 block w-full pl-10 p-2.5 " name="search" aria-label="Search " placeholder="Search markets" type="Search">
+                </div>
+                <div class="flex w-2/6 px-10 gap-3 pr-2">
+                    <div>
+                        <button class="hover:bg-gray-200 text-gray-400 font-bold p-1 rounded-[10px] items-center justify-center">
+                            <span class="flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="c-cmpvrW c-gFjjjT c-cmpvrW-bGjNZs-color-gray3 c-cmpvrW-icrqdDM-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path  d="M1 2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H2a1 1 0 01-1-1V2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V2zM1 7a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H2a1 1 0 01-1-1V7zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V7zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V7zM1 12a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H2a1 1 0 01-1-1v-2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2z"></path>
+                            </svg></span>
+                            <span >Markets</span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="hover:bg-gray-200 text-gray-400 font-bold p-1 rounded-[10px] items-center justify-center">
+                            <span class="flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="c-cmpvrW c-gRsRru c-cmpvrW-bGjNZs-color-gray3" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M19 13.586V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v3.586l-1.707 1.707C3.105 15.48 3 15.734 3 16v2c0 .553.447 1 1 1h16c.553 0 1-.447 1-1v-2c0-.266-.105-.52-.293-.707L19 13.586zM19 17H5v-.586l1.707-1.707C6.895 14.52 7 14.266 7 14v-4c0-2.757 2.243-5 5-5s5 2.243 5 5v4c0 .266.105.52.293.707L19 16.414V17zM12 22c1.311 0 2.407-.834 2.818-2H9.182C9.593 21.166 10.689 22 12 22z"></path></svg>
+                            </span>
+                            <span >Notifications</span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="hover:bg-gray-200 text-green-400 font-bold rounded-[10px] ">
+                            <span class="flex justify-center">$0.00</span>
+                            <span class="text-black">Portflio</span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="hover:bg-gray-200 text-green-400 font-bold rounded-[10px] ">
+                            <span class="flex justify-center">$0.00</span>
+                            <span class="text-black">Cash</span>
+                        </button>
+                    </div>
+                    <div class="m-auto">
+                        <button class="text-center text-white bg-blue-700 hover:bg-blue-600 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center text-sm mx-2">Deposit<button>
+                    </div>
+                    <div class="m-auto">
+                        <button class="bg-transparent hover:bg-black-200 text-gray-100 hover:bg-gray-200 py-2 px-4 border border-black-200 hover:border-transparent rounded-full bg-transparent hover:bg-gray-200 border-black-500 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="c-cmpvrW c-cmpvrW-jCYZjZ-color-dark c-cmpvrW-iigbhtu-css" height="1rem" width="1rem" xmlns="http://www.w3.org/2000/svg"><path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path></svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="c-cmpvrW c-cmpvrW-jCYZjZ-color-dark c-cmpvrW-iigbhtu-css" height="1.25rem" width="1.25rem" xmlns="http://www.w3.org/2000/svg"><path d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm-50.22 116.82C218.45 151.39 236.28 144 256 144s37.39 7.44 50.11 20.94c12.89 13.68 19.16 32.06 17.68 51.82C320.83 256 290.43 288 256 288s-64.89-32-67.79-71.25c-1.47-19.92 4.79-38.36 17.57-51.93zM256 432a175.49 175.49 0 01-126-53.22 122.91 122.91 0 0135.14-33.44C190.63 329 222.89 320 256 320s65.37 9 90.83 25.34A122.87 122.87 0 01382 378.78 175.45 175.45 0 01256 432z"></path></svg>
+                        </button>
+                    </div>
+                 </div>
+            </div>
+        </nav>
+    </header>
+   <!-- header end -->
+
+    <!-- Start Text and Slide block -->
+    <section>
+        <div class=" max-w-screen-xl px-24 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16  lg:pt-28">
+            <div class="w-full h-32 p-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-[12px]">  
+                <div class="flex  justify-between">
+                    <div class="flex gap-10">
+                        <div class="text-white">
+                            <span class="flex justify-center">Portfolio Value</span>
+                            <span class="flex justify-center text-4xl">$0.00</span>
+                        </div>
+                        <div class="text-gray-400">
+                            <span class="text-5xl">|</span>
+                        </div>
+                        <div class="text-white">
+                            <span class="flex justify-center">USDC Balance</span>
+                            <span class="flex justify-center text-4xl">$0.00</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex m-auto">
+                            <button class="text-center text-white bg-black  text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center text-sm mx-2">Deposit<button>
+                        </div>
+                        <div class="m-auto">
+                            <button class="text-center text-black bg-white  text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center text-sm mx-2">Withdraw<button>
+                        </div>
+                    </div>
+                </div>
+            </div>               
+        </div> 
+    </section>
+    <!-- End Text and Slide block -->
+
+    <!-- Start Buttons Group  block -->
+    <section class="bg-white dark:bg-gray-900 mt-5">
+        <div class="flex justify-center">
+          <div>
+            <button class=" bg-gray-100 hover:bg-black-200 text-gray-100 hover:bg-gray-200   border-black-200 hover:border-transparent rounded-full   border-black-500 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center"">
+                Trending
+            </button>
+          </div>
+
+          <div>
+            <button class=" bg-white hover:bg-black-200 text-gray-100 hover:bg-gray-200   border-black-200 hover:border-transparent rounded-full   border-black-500 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center"">
+                New
+            </button>
+          </div>
+
+          <div>
+              <button class=" bg-white hover:bg-black-200 text-gray-100 hover:bg-gray-200   border-black-200 hover:border-transparent rounded-full   border-black-500 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center"">
+                Ending Soon
+            </button>
+          </div>
+
+          <div>
+              <button class=" bg-white hover:bg-black-200 text-gray-100 hover:bg-gray-200   border-black-200 hover:border-transparent rounded-full   border-black-500 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center"">
+                Volume
+            </button>
+          </div>
+
+          <div>
+              <button class=" bg-white hover:bg-black-200 text-gray-100 hover:bg-gray-200   border-black-200 hover:border-transparent rounded-full   border-black-500 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center"">
+                Liquidity
+            </button>
+          </div>
+
+        </div>
+    </section>
+    <!-- End block -->
+
+    <!-- Start cards block -->
+    <section class="bg-white dark:bg-gray-800">
+       <div class="container px-5 pt-6 mx-auto">
+         <div class="grid  grid-rows-3 grid-cols-4"> 
+            
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card1.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1">
+                        <div class="flex  justify-between">
+                            <div class="flex bg-blue-50 w-4/12 px-1">
+                                <p class="text-green-600 py-1  text-sm">Yes3¢</p>
+                            </div>
+                            <div class="flex w-8/12 bg-pink-50 justify-end px-1">
+                                <p class="text-blue-900 text-sm py-1">No97<span>¢</span></p>
+                            </div>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card2.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card3.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card4.jpg"  alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card1.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card2.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card3.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card4.jpg"  alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+             <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card1.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card2.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card3.jpg" alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2  w-full hover:scale-105 duration-500 border-gray-60">
+                <div class="p-2  rounded-lg   shadow-[#bdc4b9]  shadow-md ">
+                    <div class="flex justify-between">
+                        <div class="w-2/6">
+                            <img src="images/card4.jpg"  alt="Will Interpol issue a Red Notice for CZ by Friday?" class="w-24 h-24">
+                        </div>
+                        <div class="w-4/6">
+                            <div class="text-left">
+                                <button class=" hover:text-gray-900 text-black text-bold font-light py-1 rounded inline-flex items-left">Elections</button>    
+                            </div>
+                            <div>
+                                <p>Will Interpol issue a Red Notice for CZ by Friday? </p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="mt-5 p-1 bg-blue-50">
+                        <div class="flex  justify-center">
+                            <p class="text-blue-900">13 markets</p>
+                        </div>                                   
+                    </div>
+                    <div class="mt-2">
+                        <hr>
+                    </div>
+                    <div class="px-2 py-1">
+                       <div class="flex justify-between">
+                            <div class="flex">
+                                <div class="flex w-auto">
+                                    <svg class="w-4 MuiSvgIcon-root  MuiSvgIcon-fontSizeMedium css-1d7gcyf"  focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BarChartIcon"><path class="fill-gray-400" d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"></path></svg>
+                                    <p class="text-gray-400 py-1  text-sm">$3.9m</p>
+                                </div>
+                                <div class="flex w-auto">
+                                    <div class="m-auto">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.87; width: 0.71rem; height: 0.71rem; margin-right: 0.175rem; margin-bottom: 1px; margin-top: 0.1rem;"><path class="fill-gray-400" d="M406.043 316c24.11 96.443-50.59 180-150 180s-174.405-82.38-150-180c15-60 90-150 150-300 60 150 135 240 150 300z"></path></svg>
+                                    </div>
+                                    <p class="text-gray-400 py-1 text-sm">$1.8m</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="m-auto">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="c-tXOek c-tXOek-ibGXbkg-css" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path class="fill-gray-400" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+    <!-- End Cards block -->
+
+    <section class="bg-white dark:bg-gray-900 mt-5">
+        <div class="flex justify-center">
+          <div>
+             <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-6 py-3.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-80">See all markets<button>
+          </div>
+    </section>
+
+   <!-- Start Cateogry Block -->
+    <section class="bg-white dark:bg-gray-900 mt-16">
+        <div class="justify-center">
+            <h2 class="mt-3 mb-4 text-3xl font-bold tracking-tight text-gray-900 text-center md:text-3xl dark:text-white">Browse by category</h2>
+            <div class="flex justify-center mt-10">           
+                <div class="">
+                  <div class=" hover:scale-105 duration-500 text-center p-2" style="width:192px; height:150px;">
+                    <div class="p-4  rounded-lg  shadow-indigo-50 shadow-md ">
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 rounded-full border p-4 bg-gray-200 flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M20,6h-3V4c0-1.103-0.897-2-2-2H9C7.897,2,7,2.897,7,4v2H4C2.897,6,2,6.897,2,8v11c0,1.103,0.897,2,2,2h16 c1.103,0,2-0.897,2-2V8C22,6.897,21.103,6,20,6z M16,8v11H8V8H16z M15,4v2H9V4H15z M4,8h2v11H4V8z M18,19V8h2l0.001,11H18z"></path></svg></div>
+                        </div>
+                        <div class="mt-5">
+                            <p>Business</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+
+                <div class=" hover:scale-105 duration-500 text-center p-2" style="width:192px; height:150px;">
+                    <div class="p-4  rounded-lg  shadow-indigo-50 shadow-md ">
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 rounded-full border p-4 bg-gray-200 flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M16.895,6.519l2.813-2.812l-1.414-1.414l-2.846,2.846c-0.233-0.166-0.473-0.321-0.723-0.454 c-1.723-0.91-3.726-0.911-5.45,0c-0.25,0.132-0.488,0.287-0.722,0.453L5.707,2.293L4.293,3.707l2.813,2.812 C6.53,7.242,6.08,8.079,5.756,9H2v2h2.307C4.242,11.495,4.2,11.997,4.2,12.5c0,0.507,0.042,1.013,0.107,1.511H2v2h2.753 c0.013,0.039,0.021,0.08,0.034,0.118c0.188,0.555,0.421,1.093,0.695,1.6c0.044,0.081,0.095,0.155,0.141,0.234l-2.33,2.33 l1.414,1.414l2.11-2.111c0.235,0.254,0.478,0.498,0.736,0.716c0.418,0.354,0.867,0.657,1.332,0.903 c0.479,0.253,0.982,0.449,1.496,0.58C10.911,21.931,11.455,22,12,22s1.089-0.069,1.618-0.204c0.514-0.131,1.017-0.327,1.496-0.58 c0.465-0.246,0.914-0.55,1.333-0.904c0.258-0.218,0.5-0.462,0.734-0.716l2.111,2.111l1.414-1.414l-2.33-2.33 c0.047-0.08,0.098-0.155,0.142-0.236c0.273-0.505,0.507-1.043,0.694-1.599c0.013-0.039,0.021-0.079,0.034-0.118H22v-2h-2.308 c0.065-0.499,0.107-1.004,0.107-1.511c0-0.503-0.042-1.005-0.106-1.5H22V9h-3.756C17.92,8.079,17.47,7.242,16.895,6.519z M8.681,7.748c0.445-0.558,0.96-0.993,1.528-1.294c1.141-0.603,2.442-0.602,3.581,0c0.569,0.301,1.084,0.736,1.53,1.295 c0.299,0.373,0.54,0.8,0.753,1.251H7.927C8.141,8.549,8.381,8.121,8.681,7.748z M17.8,12.5c0,0.522-0.042,1.044-0.126,1.553 c-0.079,0.49-0.199,0.973-0.355,1.436c-0.151,0.449-0.34,0.882-0.559,1.288c-0.217,0.399-0.463,0.772-0.733,1.11 c-0.267,0.333-0.56,0.636-0.869,0.898c-0.31,0.261-0.639,0.484-0.979,0.664s-0.695,0.317-1.057,0.41 c-0.04,0.01-0.082,0.014-0.122,0.023V14h-2v5.881c-0.04-0.009-0.082-0.013-0.122-0.023c-0.361-0.093-0.717-0.23-1.057-0.41 s-0.669-0.403-0.978-0.664c-0.311-0.263-0.604-0.565-0.871-0.899c-0.27-0.337-0.516-0.71-0.731-1.108 c-0.22-0.407-0.408-0.84-0.56-1.289c-0.156-0.463-0.276-0.946-0.356-1.438C6.242,13.544,6.2,13.022,6.2,12.5 c0-0.505,0.041-1.009,0.119-1.5h11.361C17.759,11.491,17.8,11.995,17.8,12.5z"></path></svg></div>
+                        </div>
+                        <div class="mt-5">
+                            <p>Coronavirus</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" hover:scale-105 duration-500 text-center p-2" style="width:192px; height:150px;">
+                    <div class="p-4  rounded-lg  shadow-indigo-50 shadow-md ">
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 rounded-full border p-4 bg-gray-200 flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M16,14h0.5c0.827,0,1.5-0.673,1.5-1.5v-9C18,2.673,17.327,2,16.5,2h-13C2.673,2,2,2.673,2,3.5V13v1v4l5.333-4H13H16z M6.667,12L4,14v-1V4h12v8h-3H6.667z"></path><path d="M20.5,8H20v2v2.586v1.415c0,1.1-0.893,1.993-1.99,1.999h-0.677H16h-5h-1H8v0.5C8,17.327,8.673,18,9.5,18H10h1h5h0.667 L22,22v-4v-1v-1.999v-2.002V9.5C22,8.673,21.327,8,20.5,8z"></path></svg></path></svg></div>
+                        </div>
+                        <div class="mt-5">
+                            <p>Politics</p>
+                        </div>
+                    </div>
+                  </div>
+
+                <div class=" hover:scale-105 duration-500 text-center p-2" style="width:192px; height:150px;">
+                    <div class="p-4  rounded-lg  shadow-indigo-50 shadow-md ">
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 rounded-full border p-4 bg-gray-200 flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M20,6h-5.586l2.293-2.293l-1.414-1.414L12,5.586L8.707,2.293L7.293,3.707L9.586,6H4C2.897,6,2,6.897,2,8v11 c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V8C22,6.897,21.103,6,20,6z M4,19V8h16l0.002,11H4z"></path></svg></div>
+                        </div>
+                        <div class="mt-5">
+                            <p>Pop Culture</p>
+                        </div>
+                    </div>
+                  </div>
+
+                <div class=" hover:scale-105 duration-500 text-center p-2" style="width:192px; height:150px;">
+                    <div class="p-4  rounded-lg  shadow-indigo-50 shadow-md ">
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 rounded-full border p-4 bg-gray-200 flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M3.102,20.898c0.698,0.699,1.696,1.068,2.887,1.068c1.742,0,3.855-0.778,6.012-2.127c2.156,1.35,4.27,2.127,6.012,2.127 c1.19,0,2.188-0.369,2.887-1.068c1.269-1.269,1.411-3.413,0.401-6.039c-0.358-0.932-0.854-1.895-1.457-2.859 c0.604-0.964,1.099-1.927,1.457-2.859c1.01-2.626,0.867-4.771-0.401-6.039c-0.698-0.699-1.696-1.068-2.887-1.068 c-1.742,0-3.855,0.778-6.012,2.127c-2.156-1.35-4.27-2.127-6.012-2.127c-1.19,0-2.188,0.369-2.887,1.068 C1.833,4.371,1.69,6.515,2.7,9.141C3.059,10.073,3.554,11.036,4.157,12c-0.604,0.964-1.099,1.927-1.457,2.859 C1.69,17.485,1.833,19.629,3.102,20.898z M19.433,15.577c0.689,1.79,0.708,3.251,0.052,3.907c-0.32,0.32-0.815,0.482-1.473,0.482 c-1.167,0-2.646-0.503-4.208-1.38c0.862-0.666,1.718-1.412,2.544-2.238c0.82-0.82,1.569-1.677,2.239-2.546 C18.923,14.403,19.21,14.998,19.433,15.577z M12,17.417c-0.998-0.715-1.994-1.543-2.934-2.483c-0.945-0.946-1.783-1.937-2.5-2.934 c0.717-0.997,1.555-1.988,2.5-2.934C10.006,8.127,11.002,7.299,12,6.583c0.998,0.715,1.994,1.543,2.934,2.483 c0.945,0.946,1.783,1.937,2.5,2.934c-0.717,0.997-1.555,1.988-2.5,2.934C13.994,15.873,12.998,16.701,12,17.417z M18.012,4.034 c0.657,0,1.152,0.162,1.473,0.482c0.656,0.656,0.638,2.117-0.052,3.907c-0.223,0.579-0.51,1.174-0.846,1.775 c-0.67-0.869-1.419-1.726-2.239-2.546c-0.826-0.826-1.682-1.572-2.544-2.238C15.366,4.538,16.845,4.034,18.012,4.034z M4.567,8.423 c-0.689-1.79-0.708-3.251-0.052-3.907c0.32-0.32,0.815-0.482,1.473-0.482c1.167,0,2.646,0.503,4.208,1.38 C9.334,6.08,8.479,6.826,7.652,7.652c-0.82,0.82-1.569,1.677-2.239,2.546C5.077,9.597,4.79,9.002,4.567,8.423z M4.567,15.577 c0.223-0.579,0.51-1.174,0.846-1.775c0.67,0.869,1.419,1.726,2.239,2.546c0.826,0.826,1.682,1.572,2.544,2.238 c-1.563,0.877-3.041,1.38-4.208,1.38c-0.657,0-1.152-0.162-1.473-0.482C3.859,18.828,3.878,17.367,4.567,15.577z"></path><circle cx="12" cy="12" r="2.574"></circle></svg></div>
+                        </div>
+                        <div class="mt-5">
+                            <p>Science</p>
+                        </div>
+                    </div>
+                  </div>
+
+                    <div class=" hover:scale-105 duration-500 text-center p-2" style="width:192px; height:150px;">
+                    <div class="p-4  rounded-lg  shadow-indigo-50 shadow-md ">
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 rounded-full border p-4 bg-gray-200 flex justify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M7.775,19.396c2.471,0,5.954-0.539,8.518-3.103c3.77-3.77,3.171-9.568,2.854-11.445 c-0.625-0.108-1.686-0.25-2.955-0.25c-2.464,0-5.938,0.538-8.495,3.099c-3.773,3.78-3.166,9.578-2.847,11.454 C5.472,19.257,6.52,19.396,7.775,19.396z M8.708,10.292l1.793,1.794l1.585-1.586l-1.794-1.793l1.414-1.414L13.5,9.086l1.793-1.793 l1.414,1.414L14.914,10.5l1.793,1.792l-1.414,1.414L13.5,11.914L11.914,13.5l1.792,1.793l-1.415,1.414L10.5,14.915l-1.792,1.792 l-1.414-1.414L9.086,13.5l-1.793-1.794L8.708,10.292z"></path><path d="M3.757,20.97c0.069,0.018,1.726,0.426,4.018,0.426c2.849,0,6.884-0.641,9.932-3.688c5.335-5.335,3.351-13.6,3.264-13.949 C20.881,3.4,20.603,3.12,20.244,3.03c-0.069-0.018-1.742-0.433-4.052-0.433c-2.842,0-6.869,0.64-9.91,3.687 c-5.339,5.349-3.34,13.61-3.252,13.96C3.12,20.602,3.399,20.881,3.757,20.97z M7.698,7.696c2.557-2.561,6.031-3.099,8.495-3.099 c1.27,0,2.33,0.142,2.955,0.25c0.316,1.877,0.915,7.676-2.854,11.445c-2.564,2.563-6.047,3.103-8.518,3.103 c-1.255,0-2.303-0.139-2.924-0.245C4.532,17.274,3.925,11.477,7.698,7.696z"></path><path d="M7.293 15.293L8.707 16.707 10.5 14.915 12.291 16.707 13.706 15.293 11.914 13.5 13.5 11.914 15.293 13.706 16.707 12.292 14.914 10.5 16.707 8.707 15.293 7.293 13.5 9.086 11.706 7.293 10.292 8.707 12.086 10.5 10.5 12.086 8.708 10.292 7.292 11.706 9.086 13.5z"></path></svg></div>
+                        </div>
+                        <div class="mt-5">
+                            <p>Sports</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- End Cateogry -->
+
+    <!-- Start how it block -->
+    <section class="bg-gray-50 dark:bg-gray-800 mt-10">
+        <div class="justify-center max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-10 lg:px-6">
+           <h2 class="mt-3 mb-4 text-3xl font-bold tracking-tight text-gray-900 text-center md:text-3xl dark:text-white">How it works</h2>
+        </div>
+        <div class="flex mx-40 img_icon_wrap mb-10" >
+            <div class="w-1/3 text-center px-14" >
+                <div class="flex justify-center">
+                    <div class="w-32 rounded-full">
+                        <img src="images/fund.svg" >
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h5 class="text-2xl font-bold text-black">Deposit</h5>
+                </div>
+                <div class="mt-2">
+                    <p>Fund your wallet within seconds from your favorite crypto exchange (like Coinbase or Binance) or connect your MetaMask.</p>
+                </div>
+            </div>
+            
+            <div class="w-1/3 text-center px-14" >
+                <div class="flex justify-center">
+                    <div class=" rounded-full  flex justify-center"><img src="images/predict.svg"></div>
+                </div>
+                <div class="mt-5">
+                    <h5 class="text-2xl font-bold text-black">Trade</h5>
+                </div>
+                <div class="mt-2">
+                    <p>Bet on future events by buying shares in the markets you know best. Sell at any time as the odds change.</p>
+                </div>
+            </div>
+
+            <div class="w-1/3 text-center px-14">
+                <div class="flex justify-center px-14">
+                    <div class="flex justify-center"><img src="images/earn.svg"></div>
+                </div>
+                 <div class="mt-5">
+                    <h5 class="text-2xl font-bold text-black">Profit</h5>
+                </div>
+                <div class="mt-2">
+                    <p>After the market resolves, redeem your winning shares for $1 each.</p>
+                </div>
+            </div>
+         </div>
+         <br>
+        </div>     
+      </section>
+    <!-- End block -->
+
+    <!-- End block -->
+    <footer class="bg-blue-600 w-full">
+        <div class=" w-full  p-4 py-6  lg:py-16 md:p-8 lg:p-10">
+            <div>
+                <div class="flex">
+                    <div class="w-1/2">
+                        <div class="flex">
+                            <div class="w-1/2">
+                                 <svg height="35px" class="c-juoGpU c-juoGpU-idRzuoU-css" width="168" viewBox="0 0 168 38" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M78.6391 27.3227V9.54077H75.7148V27.3227H78.6391ZM49.9319 21.095V27.3233H46.8903V10.4676H53.455C54.7469 10.4676 55.8645 10.6972 56.8079 11.1564C57.7513 11.6156 58.4697 12.2523 58.9629 13.0666C59.4561 13.8808 59.7027 14.8089 59.7027 15.8508C59.7027 16.939 59.4581 17.8767 58.9688 18.6639C58.4794 19.4511 57.767 20.0531 56.8314 20.4699C55.8958 20.8867 54.7704 21.095 53.455 21.095H49.9319ZM49.9318 18.6871H53.455C54.5432 18.6871 55.3477 18.4362 55.8683 17.9346C56.389 17.4329 56.6493 16.746 56.6493 15.8739C56.6493 15.3337 56.5358 14.8378 56.3087 14.3863C56.0817 13.9348 55.7294 13.5721 55.2518 13.2981C54.7742 13.0241 54.1753 12.8871 53.455 12.8871H49.9318V18.6871ZM67.2507 27.5554C68.4643 27.5554 69.5173 27.2815 70.4098 26.7335C71.3024 26.1855 71.9855 25.4292 72.4591 24.4644C72.9328 23.4997 73.1696 22.4076 73.1696 21.1882V20.9451C73.1696 19.7257 72.9328 18.6336 72.4591 17.6689C71.9855 16.7042 71.3004 15.9459 70.404 15.394C69.5075 14.8422 68.4486 14.5663 67.2273 14.5663C66.0216 14.5663 64.9724 14.8422 64.0799 15.394C63.1874 15.9459 62.5043 16.7042 62.0306 17.6689C61.557 18.6336 61.3201 19.7257 61.3201 20.9451V21.1882C61.3201 22.4076 61.557 23.4997 62.0306 24.4644C62.5043 25.4292 63.1893 26.1855 64.0858 26.7335C64.9822 27.2815 66.0372 27.5554 67.2507 27.5554ZM64.9959 24.1058C65.497 24.8622 66.2486 25.2404 67.2508 25.2404C67.9162 25.2404 68.4741 25.0609 68.9242 24.702C69.3744 24.3432 69.7072 23.8589 69.9225 23.2492C70.1378 22.6394 70.2454 21.9526 70.2454 21.1885V20.9454C70.2454 20.189 70.1378 19.5041 69.9225 18.8905C69.7072 18.2769 69.3725 17.7888 68.9184 17.426C68.4643 17.0633 67.9006 16.8819 67.2273 16.8819C66.5618 16.8819 66.0059 17.0633 65.5596 17.426C65.1134 17.7888 64.7826 18.2769 64.5673 18.8905C64.352 19.5041 64.2443 20.189 64.2443 20.9454V21.1885C64.2443 22.377 64.4949 23.3495 64.9959 24.1058ZM85.4179 31.4486C84.8189 32.0699 83.9636 32.3806 82.8518 32.3806C82.4682 32.3806 82.0024 32.3111 81.4543 32.1722V29.961L81.9945 29.9842C82.6913 29.9842 83.2218 29.8626 83.5858 29.6195C83.9499 29.3764 84.2376 28.95 84.449 28.3403L84.8483 27.2752L80.3856 14.7955H83.5447L86.1871 23.2002L88.7472 14.7955H91.8593L86.7978 29.2201C86.4768 30.0845 86.0168 30.8273 85.4179 31.4486ZM96.3776 27.3239V18.2709C96.8473 17.3679 97.642 16.9164 98.7616 16.9164C99.4975 16.9164 100.055 17.0939 100.435 17.4489C100.815 17.8039 101.005 18.4021 101.005 19.2433V27.3239H103.929V18.9771L103.917 18.7108C104.089 18.1628 104.381 17.7268 104.792 17.4026C105.203 17.0785 105.714 16.9164 106.325 16.9164C107.068 16.9164 107.626 17.0843 107.998 17.42C108.37 17.7557 108.556 18.3519 108.556 19.2086V27.3239H111.48V19.2202C111.48 17.6071 111.124 16.4282 110.411 15.6835C109.699 14.9387 108.669 14.5663 107.323 14.5663C106.469 14.5663 105.714 14.7342 105.056 15.0699C104.399 15.4056 103.854 15.8745 103.424 16.4765C103.103 15.8282 102.645 15.3477 102.05 15.0352C101.455 14.7226 100.758 14.5663 99.9594 14.5663C99.1765 14.5663 98.4778 14.6994 97.8632 14.9657C97.2486 15.232 96.726 15.6159 96.2954 16.1176L96.2014 14.7978H93.4534V27.3239H96.3776ZM120.167 27.1734C119.611 27.4281 118.981 27.5554 118.276 27.5554C117.446 27.5554 116.703 27.3934 116.045 27.0692C115.387 26.7451 114.874 26.2974 114.507 25.7263C114.139 25.1552 113.955 24.5146 113.955 23.8046C113.955 22.4694 114.458 21.4468 115.464 20.7367C116.47 20.0267 117.897 19.6717 119.744 19.6717H121.506V18.8613C121.506 18.1976 121.322 17.6785 120.954 17.3042C120.586 16.9299 120.042 16.7427 119.321 16.7427C118.891 16.7427 118.511 16.8161 118.182 16.9627C117.853 17.1093 117.599 17.31 117.419 17.5647C117.239 17.8194 117.149 18.1049 117.149 18.4214H114.225C114.225 17.7499 114.442 17.119 114.876 16.5286C115.311 15.9382 115.929 15.4635 116.732 15.1046C117.534 14.7457 118.452 14.5663 119.486 14.5663C120.457 14.5663 121.314 14.7284 122.058 15.0525C122.802 15.3767 123.383 15.8629 123.802 16.5112C124.221 17.1595 124.43 17.9506 124.43 18.8844V24.4066C124.43 25.5488 124.591 26.4556 124.912 27.1271V27.3239H121.929C121.803 27.0538 121.694 26.664 121.6 26.1547C121.2 26.5791 120.723 26.9187 120.167 27.1734ZM118.84 25.251C118.222 25.251 117.74 25.0908 117.396 24.7706C117.051 24.4503 116.879 24.0354 116.879 23.526C116.879 22.87 117.141 22.3607 117.666 21.9979C118.19 21.6352 118.962 21.4538 119.979 21.4538H121.506V23.7923C121.287 24.1936 120.94 24.5371 120.467 24.8226C119.993 25.1082 119.451 25.251 118.84 25.251ZM130.287 18.7918V27.3239H127.363V14.7978H130.146L130.228 16.2102C130.549 15.6854 130.949 15.2802 131.426 14.9946C131.904 14.7091 132.456 14.5663 133.082 14.5663C133.247 14.5663 133.432 14.5817 133.64 14.6126C133.847 14.6435 134.002 14.6782 134.104 14.7168L134.08 17.4373C133.689 17.3756 133.301 17.3447 132.918 17.3447C131.61 17.3447 130.733 17.8271 130.287 18.7918ZM138.786 27.3227V23.2592L140.067 21.9742L143.766 27.3227H147.148L141.946 20.0062L146.655 14.7966H143.132L139.656 18.6748L138.786 19.7399V9.54077H135.874V27.3227H138.786ZM157.057 26.884C156.235 27.3316 155.24 27.5554 154.074 27.5554C152.837 27.5554 151.756 27.2911 150.832 26.7624C149.909 26.2338 149.2 25.5102 148.707 24.5918C148.214 23.6734 147.967 22.643 147.967 21.5008V21.0261C147.967 19.7373 148.217 18.6047 148.719 17.6284C149.22 16.6521 149.909 15.8976 150.785 15.3651C151.662 14.8326 152.649 14.5663 153.745 14.5663C154.943 14.5663 155.949 14.8249 156.763 15.342C157.577 15.859 158.186 16.5826 158.589 17.5126C158.992 18.4426 159.194 19.5212 159.194 20.7483V21.9639H150.915C150.969 22.6044 151.138 23.1717 151.42 23.6656C151.701 24.1596 152.083 24.5455 152.565 24.8233C153.046 25.1012 153.608 25.2401 154.25 25.2401C155.565 25.2401 156.622 24.7307 157.421 23.712L158.983 25.2054C158.521 25.8768 157.879 26.4364 157.057 26.884ZM156.305 19.8803H150.973C151.106 18.931 151.408 18.194 151.878 17.6692C152.347 17.1443 152.966 16.8819 153.733 16.8819C154.594 16.8819 155.229 17.1424 155.636 17.6634C156.043 18.1843 156.266 18.85 156.305 19.6604V19.8803ZM167.317 27.2774C166.754 27.4626 166.12 27.5552 165.415 27.5552C164.381 27.5552 163.567 27.2735 162.972 26.7101C162.377 26.1467 162.08 25.2476 162.08 24.0127V16.9277H160.013V14.7976H162.08V11.7414H165.004V14.7976H167.235V16.9277H165.004V23.8159C165.004 24.3407 165.113 24.6977 165.333 24.8868C165.552 25.0759 165.881 25.1704 166.319 25.1704C166.632 25.1704 166.965 25.1318 167.317 25.0546V27.2774Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M30.6525 17.4069V0L0 8.6333V8.77358V29.2266V29.3668L30.6525 38.0001V20.5933V17.4069ZM27.6857 16.5713V3.8835L5.16277 10.2277L27.6857 16.5713ZM25.4849 19.0001L2.96678 12.6572V25.3429L25.4849 19.0001ZM5.16283 27.7724L27.6857 34.1166V21.4289L5.16283 27.7724Z" fill="white"></path></svg>
+                               <div>
+                                 <div class="flex mt-10">
+                                    <div>
+                                        <button class="text-center text-gray-400 border-radius:10; bg-white hover:bg-gray-200 text-gray-600 font-light py-2 px-4 rounded-[12px] inline-flex items-center text-sm mx-2 gap-2">POWERED BY <img src="images/polygon.png"/ style="width:20px;"></button>
+                                    </div>
+                                    <div>
+                                        <button class="text-center text-gray-400 bg-white hover:bg-gray-200 text-gray-600 font-light py-2 px-4 rounded-[12px] inline-flex items-center text-sm mx-2 gap-2">POWERED BY <p><svg xmlns="http://www.w3.org/2000/svg" id="logo" viewBox="0 0 137 34.316" width="44px" height="11px" color="#ff4a4a" class="c-eSlpoK"><path fill="#ff4a4a" d="M40.635,34.02H34.841a1.968,1.968,0,0,1-1.971-1.965V16.786L22.7,23.145a2.634,2.634,0,0,1-2.792,0L9.736,16.785v15.27A1.968,1.968,0,0,1,7.765,34.02H1.971A1.968,1.968,0,0,1,0,32.055V2.625A2.628,2.628,0,0,1,4.112.464L20.19,11.445a1.974,1.974,0,0,0,2.228,0L38.493.464a2.627,2.627,0,0,1,4.113,2.16V32.055a1.968,1.968,0,0,1-1.971,1.965" transform="translate(47.24 0.296)"></path><path fill="#ff4a4a" d="M38.511,34.054H2.615A2.612,2.612,0,0,1,0,31.444V1.957A1.959,1.959,0,0,1,1.961,0H7.728A1.959,1.959,0,0,1,9.689,1.957v22.43H31.437V1.957A1.958,1.958,0,0,1,33.4,0h5.767a1.959,1.959,0,0,1,1.961,1.957V31.445a2.612,2.612,0,0,1-2.615,2.609" transform="translate(0 0)"></path><path fill="#ff4a4a" d="M2.615,0h35.9a2.612,2.612,0,0,1,2.615,2.609V32.1a1.959,1.959,0,0,1-1.961,1.957H33.4A1.959,1.959,0,0,1,31.437,32.1V10.971a1.306,1.306,0,0,0-1.308-1.3H11a1.306,1.306,0,0,0-1.308,1.3V32.1a1.959,1.959,0,0,1-1.961,1.957H1.961A1.959,1.959,0,0,1,0,32.1V2.609A2.612,2.612,0,0,1,2.615,0" transform="translate(95.874 0)"></path><path fill="#ff4a4a" d="M0,1.943V7.749A1.953,1.953,0,0,0,1.963,9.692H7.729A1.953,1.953,0,0,0,9.692,7.749V1.943A1.953,1.953,0,0,0,7.729,0H1.963A1.953,1.953,0,0,0,0,1.943" transform="translate(111.591 15.979)"></path></svg></p><button>
+                                    </div>    
+                                 </div>   
+                               </div>  
+                            </div>
+                            <div class="w-1/2">         
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="flex w-1/2">
+                        <div class="w-1/3">
+                            <h5 class="text-2xl font-bold text-white">Marketplace</h6>
+                            <h6 class="text-1xl font-bold text-white">Contact</h6>
+                            <h6 class="text-1xl font-bold text-white">How it works</h6>
+                            <h6 class="text-1xl font-bold text-white">FAQ</h6>
+                            <h6 class="text-1xl font-bold text-white">BLOG</h6>
+                        </div>
+                        <div class="w-1/3">
+                             <h5 class="text-2xl font-bold text-white">Join the community</h6>
+                             <div class="flex">
+                                <div>
+                                     <svg width="20px" height="20px" viewBox="0 0 16 14" fill="white" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.84 1.97437C15.2573 2.23379 14.63 2.41043 13.9735 2.48865C14.6429 2.08388 15.1589 1.44314 15.4017 0.679218C14.775 1.05401 14.0783 1.32712 13.339 1.47247C12.7459 0.836957 11.9017 0.440002 10.9668 0.440002C9.17083 0.440002 7.71735 1.90463 7.71735 3.7108C7.71735 3.96827 7.74519 4.21661 7.80023 4.45647C5.0998 4.3209 2.70561 3.01792 1.10322 1.03902C0.82353 1.52266 0.662967 2.08387 0.662967 2.68419C0.662967 3.819 1.26961 4.82019 2.14234 5.40747C1.60951 5.38922 0.702461 5.24321 0.702461 4.99813V5.03854C0.702461 6.62375 1.78949 7.94628 3.27664 8.24677C3.00407 8.32107 2.70043 8.36084 2.40326 8.36084C2.19478 8.36084 1.98243 8.34063 1.78302 8.30152C2.19673 9.60124 3.39188 10.5477 4.81558 10.5737C3.70265 11.4524 2.29967 11.9751 0.776267 11.9751C0.514059 11.9751 0.25444 11.9595 0 11.9282C1.43794 12.8577 3.1465 13.4 4.98132 13.4C10.959 13.4 14.2273 8.41363 14.2273 4.09146C14.2273 3.94871 14.224 3.80792 14.2175 3.66778C14.8533 3.2063 15.403 2.63009 15.84 1.97437Z"></path></svg>
+                                </div>
+                                <div class="ml-4">
+                                    <svg fill="white" viewBox="0 0 24 24"  height="20px"><path d="M19.952,5.672c-1.904-1.531-4.916-1.79-5.044-1.801c-0.201-0.017-0.392,0.097-0.474,0.281 c-0.006,0.012-0.072,0.163-0.145,0.398c1.259,0.212,2.806,0.64,4.206,1.509c0.224,0.139,0.293,0.434,0.154,0.659 c-0.09,0.146-0.247,0.226-0.407,0.226c-0.086,0-0.173-0.023-0.252-0.072C15.584,5.38,12.578,5.305,12,5.305S8.415,5.38,6.011,6.872 c-0.225,0.14-0.519,0.07-0.659-0.154c-0.14-0.225-0.07-0.519,0.154-0.659c1.4-0.868,2.946-1.297,4.206-1.509 c-0.074-0.236-0.14-0.386-0.145-0.398C9.484,3.968,9.294,3.852,9.092,3.872c-0.127,0.01-3.139,0.269-5.069,1.822 C3.015,6.625,1,12.073,1,16.783c0,0.083,0.022,0.165,0.063,0.237c1.391,2.443,5.185,3.083,6.05,3.111c0.005,0,0.01,0,0.015,0 c0.153,0,0.297-0.073,0.387-0.197l0.875-1.202c-2.359-0.61-3.564-1.645-3.634-1.706c-0.198-0.175-0.217-0.477-0.042-0.675 c0.175-0.198,0.476-0.217,0.674-0.043c0.029,0.026,2.248,1.909,6.612,1.909c4.372,0,6.591-1.891,6.613-1.91 c0.198-0.172,0.5-0.154,0.674,0.045c0.174,0.198,0.155,0.499-0.042,0.673c-0.07,0.062-1.275,1.096-3.634,1.706l0.875,1.202 c0.09,0.124,0.234,0.197,0.387,0.197c0.005,0,0.01,0,0.015,0c0.865-0.027,4.659-0.667,6.05-3.111 C22.978,16.947,23,16.866,23,16.783C23,12.073,20.985,6.625,19.952,5.672z M8.891,14.87c-0.924,0-1.674-0.857-1.674-1.913 s0.749-1.913,1.674-1.913s1.674,0.857,1.674,1.913S9.816,14.87,8.891,14.87z M15.109,14.87c-0.924,0-1.674-0.857-1.674-1.913 s0.749-1.913,1.674-1.913c0.924,0,1.674,0.857,1.674,1.913S16.033,14.87,15.109,14.87z"></path></svg>
+                                </div>
+                                <div class="ml-4">
+                                     <svg width="20px" height="20px" viewBox="0 0 17 15" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6662 3.22021L16.6696 3.22304C16.6934 3.24158 16.7015 3.27447 16.6847 3.30104L11.6646 11.2632L8.0554 5.53878L10.9313 0.977274C11.0345 0.813718 11.225 0.719971 11.4163 0.719971C11.4625 0.719971 11.5084 0.726921 11.5535 0.738195C11.5894 0.747153 11.6249 0.758427 11.6587 0.774798L16.654 3.21285L16.6597 3.21548C16.6623 3.21676 16.6642 3.21848 16.6662 3.2202L16.6662 3.22021ZM6.47128 9.69218V4.49977L11.2001 12L6.47128 9.69218ZM11.9104 12.3467L15.803 14.2464C16.3095 14.4933 16.7202 14.3203 16.7202 13.8598V4.7184L11.9104 12.3467ZM0.771576 0.849518L5.65043 3.23043C5.66863 3.23938 5.68002 3.25745 5.68002 3.27738V13.8599C5.68002 14.1984 5.49283 14.4 5.22573 14.4C5.13095 14.4 5.02604 14.3746 4.91575 14.3209L0.618721 12.2237C0.366495 12.1008 0.160156 11.7747 0.160156 11.4995V1.21833C0.160156 0.947436 0.310005 0.786196 0.52378 0.786196C0.599575 0.786196 0.683439 0.806583 0.771576 0.849518Z"></path></svg>   
+                                </div>                    
+                             </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <hr>
+            </div>
+            <div class="flex mt-4">
+                <div class="w-1/2">
+                    <h6 class="text-1xl font-bold text-white">Adventure One QSS Inc. © 2023</h6>
+                </div>
+                <div class="flex w-1/2 justify-end">
+                    <div>
+                        <h6 class="text-1xl font-bold text-white"><a class="hover:bg-blue-600" href="#">Privacy Policy</a></h6>
+                    </div>
+                    <div class="ml-4">
+                        <h6 class="text-1xl font-bold text-white"><a class="hover:bg-blue-600" href="#">Terms of Service</a></h6>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+</html>
